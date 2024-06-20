@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nisan\\MyLocationAPI\\MyLocationAPI.csproj": {}
+    "C:\\Users\\nisan\\MyLocationAPI\\LocateMe.NET\\MyLocationAPI\\MyLocationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nisan\\MyLocationAPI\\MyLocationAPI.csproj": {
+    "C:\\Users\\nisan\\MyLocationAPI\\LocateMe.NET\\MyLocationAPI\\MyLocationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nisan\\MyLocationAPI\\MyLocationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nisan\\MyLocationAPI\\LocateMe.NET\\MyLocationAPI\\MyLocationAPI.csproj",
         "projectName": "MyLocationAPI",
-        "projectPath": "C:\\Users\\nisan\\MyLocationAPI\\MyLocationAPI.csproj",
+        "projectPath": "C:\\Users\\nisan\\MyLocationAPI\\LocateMe.NET\\MyLocationAPI\\MyLocationAPI.csproj",
         "packagesPath": "C:\\Users\\nisan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nisan\\MyLocationAPI\\obj\\",
+        "outputPath": "C:\\Users\\nisan\\MyLocationAPI\\LocateMe.NET\\MyLocationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

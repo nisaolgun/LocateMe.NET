@@ -32,7 +32,7 @@ namespace MyLocationAPI.Controllers
         [HttpPost]
         public IActionResult AddLocation([FromBody] Location location)
         {
-            location.Id = _locations.Count + 1; // ID'yi otomatik olarak ayarla
+            location.Id = _locations.Count + 1;
             _locations.Add(location);
             return CreatedAtAction(nameof(GetLocationById), new { id = location.Id }, location);
         }
@@ -46,7 +46,6 @@ namespace MyLocationAPI.Controllers
                 return NotFound();
             }
 
-            // Update location fields
             location.Name = updatedLocation.Name;
             location.Latitude = updatedLocation.Latitude;
             location.Longitude = updatedLocation.Longitude;
@@ -70,8 +69,7 @@ namespace MyLocationAPI.Controllers
         [HttpGet("nearby")]
         public IActionResult GetNearbyLocations(double latitude, double longitude)
         {
-            // Burada Google Haritalar API veya benzer bir servis kullanarak yakındaki yerleri bulun
-            // Örnek bir dönüş yapısı:
+            
             var nearbyLocations = new[]
             {
                 new { Name = "Example Place 1", Latitude = latitude + 0.01, Longitude = longitude + 0.01 },
